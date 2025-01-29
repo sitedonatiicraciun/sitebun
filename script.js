@@ -1,4 +1,4 @@
-  // Funcție care adaugă clasa 'visible' secțiunilor când sunt derulate pe ecran
+  // Funcție care adaugă clasa 'visible'
 window.addEventListener('scroll', function() {
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
     });
 });
 
-// Adaugă efect de animație la butonul "Donați Acum" la apăsare
+// Adaugă efect
 const donateButton = document.querySelector('.cta-button');
 donateButton.addEventListener('click', function() {
     donateButton.style.transform = 'scale(0.95)';
